@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">EasyRead</string>
+    <string name="textHint">Enter article URL</string>
+    <string name="pic1">NewsPaper</string>
+    <string name="pic2">Right Arrow</string>
+    <string name="pic3">Article</string>
+    <string name="author">Created by John Lin</string>
+    <string name="submit">Submit</string>
+    <string name="aboutApp">About the App</string>
+    <string name="aboutMe">About Me</string>
+    <string name="info">Are your Articles on the internet too long to read? Who has the time to read those articles when life is so short.
+            This app allows the user to submit a url of an article and condenses the article for the user.
+            By using a text processing API called ______, the user is given a summary of the article and various keywords from the article.
+            Save your time from reading articles and use this app to make your life ten times easier</string>
+    <string name="capitalOne">This app is made for CapitalOne Coding Challenge 2016.</string>
+    <string name="smallinfo">Use this app to summarize articles!!!</string>
+    <string name="downwardsarrow">Downwards Arrow</string>
+    <string name="home">Home</string>
+
     <color name="white">#FFFFFF</color>
 </resources>
