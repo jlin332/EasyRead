@@ -17,8 +17,94 @@
         android:textSize="30sp"
         android:textAlignment="center"
         android:singleLine="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#fd0000"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:id="@+id/title" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:inputType="text"
+        android:maxWidth="200dp"
+        android:maxLines="1"
+        android:hint="@string/textHint"
+        android:textSize="25sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_above="@id/editText"
+        android:layout_below="@id/title"
+        android:id="@+id/linearLayout">
+    <ImageView
+        android:id="@+id/ScreenImage"
+        android:layout_width="125sp"
+        android:layout_height="125sp"
+        android:src="@drawable/newspaper"
+        android:contentDescription="@string/pic1"
+        android:paddingEnd="15sp"
+        android:paddingStart="15sp" />
+    <ImageView
+        android:id="@+id/Arrow"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/rightarrow"
+        android:contentDescription="@string/pic2"
+        android:paddingEnd="15sp"
+        android:paddingStart="15sp"/>
+    <ImageView
+            android:id="@+id/Article"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/shortarticle"
+            android:contentDescription="@string/pic3"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/author"
+        android:id="@+id/author"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/button"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/aboutApp"
+        android:id="@+id/AboutTheApp"
+        android:layout_toStartOf="@id/author"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/aboutMe"
+        android:id="@+id/AboutMe"
+        android:layout_alignBottom="@+id/AboutTheApp"
+        android:layout_alignEnd="@+id/linearLayout" />
+
 
 </RelativeLayout>
