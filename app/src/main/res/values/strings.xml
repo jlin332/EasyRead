@@ -6,7 +6,7 @@
     <string name="pic3">Article</string>
     <string name="author">Created by John Lin</string>
     <string name="submit">Submit</string>
-    <string name="aboutApp">About the App</string>
+    <string name="aboutApp">App Info</string>
     <string name="aboutMe">About Me</string>
     <string name="info">Are your Articles on the internet too long to read? Who has the time to read those articles when life is so short.
             This app allows the user to submit a url of an article and condenses the article for the user.
@@ -16,6 +16,11 @@
     <string name="smallinfo">Use this app to summarize articles!!!</string>
     <string name="downwardsarrow">Downwards Arrow</string>
     <string name="home">Home</string>
+    <string name="meInfo">My name is John lin. I am currently a freshman majoring in Computer Science at
+            Georgia Tech. I am looking for a summer internship to gain experience and learn as much as possible
+            to prepare myself for my future career. I like to work in teams, and am a self learner as well. This project app
+            is made for CapitalOne Coding Challenge 2016 for Software Engineering Summit over the summer.</string>
+    <string name="me">Picture of me</string>
 
     <color name="white">#FFFFFF</color>
 </resources>

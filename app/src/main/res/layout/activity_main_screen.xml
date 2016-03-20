@@ -95,7 +95,8 @@
         android:layout_toStartOf="@id/author"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:onClick="go_to_AppInfo"/>
+        android:onClick="go_to_AppInfo"
+        android:maxLines="1" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -105,7 +106,8 @@
         android:text="@string/aboutMe"
         android:id="@+id/AboutMe"
         android:layout_alignBottom="@+id/AboutTheApp"
-        android:layout_alignEnd="@+id/linearLayout" />
+        android:layout_alignEnd="@+id/linearLayout"
+        android:onClick="go_to_AboutMe"/>
 
 
 </RelativeLayout>

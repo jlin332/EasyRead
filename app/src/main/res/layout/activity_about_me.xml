@@ -10,4 +10,67 @@
     android:background="@color/white"
     tools:context="com.captialonecodingchallenge2016.easyread.AboutMe">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutMe"
+        android:id="@+id/AboutMeTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#fd0000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AboutMeTitle"
+        android:layout_marginTop="20dp"
+        android:id="@+id/mePic"
+        android:src="@drawable/mepic"
+        android:maxHeight="250dp"
+        android:maxWidth="100dp"
+        android:contentDescription="@string/me"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/meInfo"
+        android:textSize="15sp"
+        android:id="@+id/meInfoText"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/mePic"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/meInfoText"
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="@string/home"
+            android:id="@+id/homeButton"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:elegantTextHeight="true"
+            android:onClick="go_to_Home"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/aboutApp"
+            android:textAllCaps="false"
+            android:id="@+id/AboutTheAppButton"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:onClick="go_to_AppInfo"/>
+    </LinearLayout>
+
 </RelativeLayout>

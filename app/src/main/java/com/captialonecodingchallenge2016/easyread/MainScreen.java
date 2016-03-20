@@ -22,4 +22,9 @@ public class MainScreen extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void go_to_AboutMe(View view) {
+        Intent aboutMeIntent = new Intent(this, AboutMe.class);
+        startActivity(aboutMeIntent);
+    }
+
 }

@@ -1,7 +1,9 @@
 package com.captialonecodingchallenge2016.easyread;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class AboutMe extends AppCompatActivity {
 
@@ -9,5 +11,15 @@ public class AboutMe extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_me);
+    }
+
+    public void go_to_Home(View view) {
+        Intent homeIntent = new Intent(this, MainScreen.class);
+        startActivity(homeIntent);
+    }
+
+    public void go_to_AppInfo(View view) {
+        Intent appInfoIntent = new Intent(this,AppInfo.class);
+        startActivity(appInfoIntent);
     }
 }
