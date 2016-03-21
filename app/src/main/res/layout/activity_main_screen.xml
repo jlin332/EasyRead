@@ -27,7 +27,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
+        android:id="@+id/textBox"
         android:inputType="text"
         android:maxWidth="200dp"
         android:maxLines="1"
@@ -40,7 +40,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="horizontal"
-        android:layout_above="@id/editText"
+        android:layout_above="@id/textBox"
         android:layout_below="@id/title"
         android:id="@+id/linearLayout">
     <ImageView
@@ -81,9 +81,10 @@
         android:layout_height="wrap_content"
         android:text="@string/submit"
         android:id="@+id/button"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/textBox"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp" />
+        android:layout_marginTop="41dp"
+        android:onClick="submit"/>
 
     <Button
         style="?android:attr/buttonStyleSmall"

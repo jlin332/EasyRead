@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.captialonecodingchallenge2016.easyread">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".AppInfo" />
-        <activity android:name=".AboutMe"></activity>
+        <activity android:name=".AboutMe" />
+        <activity android:name=".SummarizedPage" />
     </application>
 
 </manifest>

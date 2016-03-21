@@ -10,7 +10,7 @@
     <string name="aboutMe">About Me</string>
     <string name="info">Are your Articles on the internet too long to read? Who has the time to read those articles when life is so short.
             This app allows the user to submit a url of an article and condenses the article for the user.
-            By using a text processing API called ______, the user is given a summary of the article and various keywords from the article.
+            By using a text processing API called Aylien, the user is given a summary of the article and various keywords from the article.
             Save your time from reading articles and use this app to make your life ten times easier</string>
     <string name="capitalOne">This app is made for CapitalOne Coding Challenge 2016.</string>
     <string name="smallinfo">Use this app to summarize articles!!!</string>
@@ -21,6 +21,6 @@
             to prepare myself for my future career. I like to work in teams, and am a self learner as well. This project app
             is made for CapitalOne Coding Challenge 2016 for Software Engineering Summit over the summer.</string>
     <string name="me">Picture of me</string>
-
-    <color name="white">#FFFFFF</color>
+    <string name="article_summary">Article Summary</string>
+    <string name="summary_hint">Where the summary is gonna be</string>
 </resources>
