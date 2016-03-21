@@ -23,4 +23,5 @@
     <string name="me">Picture of me</string>
     <string name="article_summary">Article Summary</string>
     <string name="summary_hint">Where the summary is gonna be</string>
+    <string name="concepts">Concepts</string>
 </resources>

@@ -23,10 +23,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/concepts"
+        android:id="@+id/concept"
+        android:layout_below="@id/articleSummaryTitle"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:id="@+id/summary"
-        android:layout_below="@+id/articleSummaryTitle"
-        android:layout_alignParentStart="true"
         android:hint="@string/summary_hint"
-        android:textAlignment="textStart" />
+        android:textAlignment="textStart"
+        android:layout_below="@+id/concept"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>
