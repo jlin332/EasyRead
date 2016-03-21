@@ -14,12 +14,7 @@ public class AboutMe extends AppCompatActivity {
     }
 
     public void go_to_Home(View view) {
-        Intent homeIntent = new Intent(this, MainScreen.class);
-        startActivity(homeIntent);
+        this.finish();
     }
 
-    public void go_to_AppInfo(View view) {
-        Intent appInfoIntent = new Intent(this,AppInfo.class);
-        startActivity(appInfoIntent);
-    }
 }

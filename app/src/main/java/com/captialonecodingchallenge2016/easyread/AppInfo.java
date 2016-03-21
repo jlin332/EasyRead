@@ -14,12 +14,6 @@ public class AppInfo extends AppCompatActivity {
     }
 
     public void go_to_Home(View view) {
-        Intent homeIntent = new Intent(this, MainScreen.class);
-        startActivity(homeIntent);
-    }
-
-    public void go_to_AboutMe(View view) {
-        Intent aboutMeIntent = new Intent(this,AboutMe.class);
-        startActivity(aboutMeIntent);
+        this.finish();
     }
 }

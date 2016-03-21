@@ -23,12 +23,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/concepts"
+        android:hint="@string/concepts"
         android:id="@+id/concept"
         android:layout_below="@id/articleSummaryTitle"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="20dp"
         android:textSize="15sp"
+        android:text="@string/conceptText"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -39,6 +40,17 @@
         android:hint="@string/summary_hint"
         android:textAlignment="textStart"
         android:layout_below="@+id/concept"
-        android:layout_alignParentStart="true" />
+        android:text="@string/articleText"
+        android:layout_alignParentStart="true"
+        android:textSize="14sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:id="@+id/Back"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="back"/>
 
 </RelativeLayout>

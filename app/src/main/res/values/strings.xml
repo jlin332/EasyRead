@@ -24,4 +24,9 @@
     <string name="article_summary">Article Summary</string>
     <string name="summary_hint">Where the summary is gonna be</string>
     <string name="concepts">Concepts</string>
+    <string name="articleText">"It’s been almost two years since the world was captivated by Snowden’s leaks to The Guardian and The Washington Post about American surveillance programs.",
+    "In response to the public outcry that followed the Snowden revelations, President Obama stipulated that congress must renew or reform the Patriot Act provision authorizing the bulk collection of Americans’ phone records by that date, or else the program will expire.",
+    "Snowden then went on to explain how the government uses different programs to access those pictures, from Executive Order 12333 to Section 702 of the Foreign Intelligence Surveillance Act."</string>
+    <string name="conceptText">defence - national security</string>
+    <string name="back">Back</string>
 </resources>

@@ -41,6 +41,7 @@ public class MainScreen extends AppCompatActivity {
         ImageView article = (ImageView) findViewById((R.id.Article));
         textbox = (EditText) findViewById(R.id.textBox);
         text = textbox.getText().toString();
+        Toast.makeText(this,"What It Should Look like when running with an article", Toast.LENGTH_LONG).show();
     }
 
     public void go_to_AppInfo(View view) {
@@ -58,10 +59,10 @@ public class MainScreen extends AppCompatActivity {
             Toast.makeText(this, "You did not enter a URL", Toast.LENGTH_SHORT).show();
             return;
         }
-        new callAPI().execute(); //calls for the API
+        //new callAPI().execute(); //calls for the API  UNCOMMENT WHEN WORKING
         Intent summaryIntent = new Intent(this, SummarizedPage.class); // makes new page for Summarized article
-        summaryIntent.putExtra(SUMMARY, message);
-        summaryIntent.putExtra(CONCEPT,concept);
+        //summaryIntent.putExtra(SUMMARY, message);   UNCOMMENT WHEN WORKING
+        //summaryIntent.putExtra(CONCEPT,concept);   UNCOMMENT WHEN WORKING
         startActivity(summaryIntent);
     }
 
