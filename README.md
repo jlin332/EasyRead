@@ -29,6 +29,11 @@ Make Sure you have GIT downloaded: https://git-scm.com/downloads
 4. Click Clone and now you have the Project
 5. Run the Project on an emulator such as Nexus 6, if you have no virtual devices set up here is a link on how to do it: https://www.youtube.com/watch?v=O3UuUUXuOu4
 
+###APK
+1. Link for Programs that open APK file: http://fileinfo.com/extension/apk
+
+*Prefer the Android Studio method*
+
 ## History
 
 Made for CapitalOne Coding Challenge in order to get into Summer Software Engineering Summit.
